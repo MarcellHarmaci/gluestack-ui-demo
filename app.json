@@ -21,7 +21,6 @@
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png",
-      "baseUrl": "/gluestack-ui-demo"
     },
     "plugins": [
       "expo-router",
@@ -36,7 +35,8 @@
       ]
     ],
     "experiments": {
-      "typedRoutes": true
+      "typedRoutes": true,
+      "baseUrl": "/gluestack-ui-demo"
     }
   }
 }

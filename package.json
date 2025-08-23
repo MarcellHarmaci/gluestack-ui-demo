@@ -2,7 +2,6 @@
   "name": "expo-app",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "homepage": "https://MarcellHarmaci.github.io/gluestack-ui-demo",
   "scripts": {
     "start": "expo start",
     "android": "DARK_MODE=media expo start --android",
@@ -10,8 +9,8 @@
     "web": "DARK_MODE=media expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "predeploy": "expo export -p web",
-    "deploy:web": "gh-pages -d dist"
+    "predeploy:web": "expo export -p web",
+    "deploy:web": "gh-pages --nojekyll -d dist"
   },
   "jest": {
     "preset": "jest-expo"
